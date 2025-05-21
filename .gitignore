@@ -1,2 +1,69 @@
+# Compiled class files
+*.class
 
-.odo
+# Maven/SBT/Gradle build directories
+target/
+build/
+bin/
+out/
+
+# Eclipse/IntelliJ IDE files
+.settings/
+.idea/
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+
+# Logs and temporary files
+*.log
+*.swp
+*.bak
+
+# Build outputs
+bin/
+build/
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+
+# Odo
+.odo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OpenShift temp files
+.openshift/
+openshift.local.*
+
+# OpenShift build artifacts
+.s2i/
+openshift-*.yml
+
+# Container-related files
+*.container
+*.tar.gz
+
+# Dependency directories
+.m2/
+.gradle/
+
+# Logs
+*.log
+logs/
+
+# System Files
+.DS_Store
+Thumbs.db
